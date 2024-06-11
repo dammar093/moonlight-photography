@@ -49,7 +49,7 @@ const GalleryComponent = ({ isAll }) => {
             </div>
             {
               isAll ? <div className='text-orange-500 float-right my-4'>
-                <Link className='flex gap-2 items-center'>Viewl all gallery <FaArrowRight /></Link>
+                <Link to={"/gallery"} className='flex gap-2 items-center'>Viewl all gallery <FaArrowRight /></Link>
               </div> : ""
             }
           </div>
