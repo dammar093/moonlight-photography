@@ -57,7 +57,7 @@ const ServiceComponent = () => {
               <h2 className='capitalize text-[#f3f3f3] font-bold text-[25px] text-center md:text-[30px]'>Our Services</h2>
               <div className='h-1 w-[100px] rounded bg-orange-500 mx-auto'></div>
             </div>
-            <div className='grid grid-cols-1 gap-3 md:grid-cols-3 items-center w-full place-content-center place-items-center'  >
+            <div className='grid grid-cols-1 gap-3 md:grid-cols-3 items-center w-full place-content-center place-items-center'>
               {
                 services.map((service) => (
                   <div className='h-[200px] w-full md:w-[31vw]  bg-[#f3f3f3] rounded service hover:bg-orange-400 transition-all ease-linear delay-100' key={service.id} >
