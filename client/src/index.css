@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ray {
+  animation: radius infinite 2s ease;
+}
+@keyframes radius {
+  0% {
+    border: 1px solid rgba(255, 255, 255, 0.653);
+  }
+
+  100% {
+    border: 20px solid rgba(255, 255, 255, 0);
+  }
+}
