@@ -89,8 +89,8 @@ const Tool = () => {
             <div className='grid grid-cols-1 gap-3 md:grid-cols-3 items-center w-full place-content-center place-items-center' ref={scrollRef}>
               {
                 tools.map((tool) => (
-                  <div key={tool.id}>
-                    <div className='h-[250px] w-full md:w-[31vw]  bg-[#f3f3f3] rounded service hover:opacity-[0.7] transition-all ease-linear delay-100' >
+                  <div className='h-[250px] w-full md:w-[31vw]' key={tool.id}>
+                    <div className='w-full h-full  bg-[#f3f3f3] rounded service hover:opacity-[0.7] transition-all ease-linear delay-100' >
                       <img className="w-full h-full object-cover" src={tool.image} alt="" />
                     </div>
                   </div>
