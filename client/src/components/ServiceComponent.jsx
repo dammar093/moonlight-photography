@@ -110,8 +110,8 @@ const ServiceComponent = () => {
             <div className='grid grid-cols-1 gap-3 md:grid-cols-3 items-center w-full place-content-center place-items-center' ref={scrollRef}>
               {
                 services.map((service) => (
-                  <div key={service.id}>
-                    <div className='h-[200px] w-full md:w-[31vw]  bg-[#f3f3f3] rounded service hover:bg-orange-400 transition-all ease-linear delay-100' >
+                  <div className='h-[200px] w-full md:w-[31vw]' key={service.id} >
+                    <div className='w-full h-full  bg-[#f3f3f3] rounded service hover:bg-orange-400 transition-all ease-linear delay-100' >
                       <div className='text-[60px] text-slate-800 text-center p-4 my-2 w-full flex justify-center capitalize'>
                         {
                           <service.icon />
