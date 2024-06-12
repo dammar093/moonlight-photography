@@ -73,7 +73,6 @@ const Tool = () => {
           ease: "power1.inOut",
 
         });
-
       });
     },
     { scope: scrollRef }
