@@ -91,7 +91,7 @@ const Tool = () => {
                 tools.map((tool) => (
                   <div key={tool.id}>
                     <div className='h-[250px] w-full md:w-[31vw]  bg-[#f3f3f3] rounded service hover:opacity-[0.7] transition-all ease-linear delay-100' >
-                      <img className="w-full h-full  aspect-video" src={tool.image} alt="" />
+                      <img className="w-full h-full object-cover" src={tool.image} alt="" />
                     </div>
                   </div>
                 ))
