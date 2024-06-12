@@ -3,7 +3,7 @@ import { FaCamera } from "react-icons/fa";
 import Container from './Container';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-
+import hero from '/hero.jpg'
 gsap.registerPlugin(useGSAP)
 
 const HeroSection = () => {
@@ -26,8 +26,8 @@ const HeroSection = () => {
     }
   )
   return (
-    <section className='h-[640px] lg:h-[50vh] xl:h-[90vh] relative w-full' >
-      <img className='h-full w-full object-cover absolute left-0 right-0' src="https://demo-gutenify-com.s3.amazonaws.com/wp-content/uploads/sites/146/2023/11/19112428/New-Project.jpg" alt="" />
+    <section className='h-[640px] lg:h-[50vh] xl:h-screen relative w-full' >
+      <img className='h-full w-full  object-cover absolute left-0 right-0' src={hero} alt="" />
       <Container>
         <div className='absolute w-full md:w-[50%] mt-[50px]  md:mt-20  left-0 right-0 px-2 md:px-6' ref={containerRef}>
           <div className='text-[#f3f3f3] text-[35px] font-semibold capitalize heading'>
