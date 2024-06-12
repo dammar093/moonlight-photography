@@ -27,7 +27,7 @@ const HeroSection = () => {
   )
   return (
     <section className='w-full' >
-      <div className='h-[640px] lg:h-[50vh]  xl:h-screen relative w-full'>
+      <div className='h-[640px] lg:h-[50vh]  xl:h-[100vh] relative w-full'>
         <img className='h-full w-full  object-cover absolute top-0 left-0 right-0' src={hero} alt="" />
         <Container>
           <div className='absolute w-full md:w-[50%] mt-[50px]  md:mt-20  left-0 right-0 px-2 md:px-6' ref={containerRef}>
