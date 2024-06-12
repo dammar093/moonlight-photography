@@ -64,8 +64,8 @@ const Footer = () => {
             </div>
           </div>
         </Container>
-        <div className='text-center py-2 text-white border-t text-md'>
-          Copyright &copy; {new Date().getFullYear()} All-right reserved Moonlight Photography
+        <div className='text-center py-2 text-white border-t text-sm md:text-md'>
+          Copyright &copy; {new Date().getFullYear()} All-right reserved by Moonlight Photography powered by <Link to={'https://www.facebook.com/dammarrana093'}>Dammar Singh Rana</Link>
         </div>
       </footer>
     </section>
