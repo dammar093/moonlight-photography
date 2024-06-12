@@ -6,7 +6,7 @@ const Gallery = () => {
     document.title = "Moonlight | Gallery"
   }, [])
   return (
-    <div className='mt-[80px]'>
+    <div className='mt-[80px] min-h-screen'>
       <GalleryComponent isAll={false} />
     </div>
   )

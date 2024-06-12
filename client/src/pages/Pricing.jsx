@@ -6,7 +6,7 @@ const Pricing = () => {
     document.title = "Moonlight | Pricing"
   }, [])
   return (
-    <div className='mt-[80px]'>
+    <div className='mt-[80px] min-h-screen'>
       <PricingComponent />
     </div>
   )

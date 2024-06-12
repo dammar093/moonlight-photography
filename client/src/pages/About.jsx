@@ -6,7 +6,7 @@ const About = () => {
     document.title = "Moonlight | About"
   }, [])
   return (
-    <div className='mt-[80px]'>
+    <div className='mt-[80px] min-h-screen'>
       <AboutComponent />
     </div>
   )
